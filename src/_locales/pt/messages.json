@@ -35,6 +35,10 @@
     "message": "Fixar aba",
     "description": "Pin Tab context menu item label."
   },
+  "contextMenuDiscardTab": {
+    "message": "Discard Tab",
+    "description": "Discard Tab context menu item label"
+  },
   "contextMenuUnpinTab": {
     "message": "Desafixar aba",
     "description": "Unpin Tab context menu item label."

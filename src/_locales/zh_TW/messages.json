@@ -31,6 +31,10 @@
     "message": "重新載入分頁",
     "description": "Reload Tab context menu item label."
   },
+  "contextMenuDiscardTab": {
+    "message": "Discard Tab",
+    "description": "Discard Tab context menu item label"
+  },
   "contextMenuPinTab": {
     "message": "固定分頁",
     "description": "Pin Tab context menu item label."

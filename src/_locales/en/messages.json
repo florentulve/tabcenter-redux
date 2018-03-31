@@ -39,7 +39,10 @@
     "message": "Reload Tab",
     "description": "Reload Tab context menu item label."
   },
-
+  "contextMenuDiscardTab": {
+    "message": "Discard Tab",
+    "description": "Discard Tab context menu item label"
+  },
   "contextMenuPinTab": {
     "message": "Pin Tab",
     "description": "Pin Tab context menu item label."

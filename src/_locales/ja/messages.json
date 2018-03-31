@@ -27,6 +27,10 @@
     "message": "タブを再読み込み",
     "description": "Reload Tab context menu item label."
   },
+  "contextMenuDiscardTab": {
+    "message": "Discard Tab",
+    "description": "Discard Tab context menu item label"
+  },
   "contextMenuPinTab": {
     "message": "タブをピン留め",
     "description": "Pin Tab context menu item label."

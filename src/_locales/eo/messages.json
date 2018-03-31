@@ -31,6 +31,10 @@
     "message": "Reŝargi la langeton",
     "description": "Reload Tab context menu item label."
   },
+  "contextMenuDiscardTab": {
+    "message": "Discard Tab",
+    "description": "Discard Tab context menu item label"
+  },
   "contextMenuPinTab": {
     "message": "Fiksi la langeton",
     "description": "Pin Tab context menu item label."

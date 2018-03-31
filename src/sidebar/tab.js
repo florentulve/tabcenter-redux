@@ -5,6 +5,7 @@ function SideTab() {
   this.muted = null;
   this.pinned = null;
   this.visible = true;
+  this.discarded = false;
 }
 
 SideTab.prototype = {
@@ -180,6 +181,7 @@ SideTab.prototype = {
     toggleClass(this.view, "pinned", pinned);
   },
   _updateDiscarded(discarded) {
+    this.discarded = discarded;
     toggleClass(this.view, "discarded", discarded);
   },
   async updateThumbnail() {

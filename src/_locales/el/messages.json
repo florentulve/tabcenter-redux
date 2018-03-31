@@ -31,6 +31,10 @@
     "message": "Ανανέωση Καρτέλας",
     "description": "Reload Tab context menu item label."
   },
+  "contextMenuDiscardTab": {
+    "message": "Discard Tab",
+    "description": "Discard Tab context menu item label"
+  },
   "contextMenuPinTab": {
     "message": "Καρφίτσωμα Καρτέλας",
     "description": "Pin Tab context menu item label."

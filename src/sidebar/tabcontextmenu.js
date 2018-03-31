@@ -60,6 +60,17 @@ TabContextMenu.prototype = {
         browser.tabs.update(tab.id, {"muted": !tab.muted});
       }
     });
+    //Discard
+    if(!tab.discarded)
+      items.push({
+        label: browser.i18n.getMessage("contextMenuDiscardTab"),
+        onCommandFn: () => {
+          browser.tabs.discard(tab.id).catch((e)=>{
+            console.error("Can't discard tab");
+            console.error(e);
+          });
+        }
+      });
     items.push({
       label: "separator"
     });
